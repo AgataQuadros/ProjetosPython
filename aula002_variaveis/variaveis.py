@@ -5,7 +5,7 @@ import os
 # limpando o terminal
 os.system('cls')
 
-print('-' * 70)
+print('-' * 70) # firula
 print('Estudo de variáveis')
 print('='*70) # firula
 
