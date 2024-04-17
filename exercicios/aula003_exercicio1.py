@@ -5,9 +5,6 @@
 # Bilioteca para interagir com OS
 import os
 
-# Biblioteca para pegar data e hora do sistema
-import datetime
-
 
 # Limpando o terminal 
 os.system('cls')
@@ -32,6 +29,11 @@ print(f'Nascimento...........: {dia}/{mes}/{ano}')
 print(f'Atura...........: {altura}')
 print('-' * 30) # Firula
 
-
-
-
+# Tipos da variavel
+print('a variavel nome é do tipo: ', type(nome))
+print('a variavel altura é do tipo: ', type(altura))
+print('a variavel mês é do tipo: ', type(mes))
+print('a variavel ano é do tipo: ', type(ano))
+print('a variavel dia é do tipo: ', type(dia))
+print('a variavel menor de idade é do tipo: ', type(menor_de_idade))
+print('=' * 50)
