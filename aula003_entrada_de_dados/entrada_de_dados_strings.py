@@ -13,20 +13,20 @@ print('ENTRADA DE DADOS EM PYTHON')
 print('=' * 70)
 
 # entrada
-nome = input('Gaia')
-peso = input('60.0')
-altura = input ('1.57')
+nome = input('Entre comseu nome: ')
+peso = input('Entre com seu peso: ')
+altura = input ('Entre com sua altura:')
 
 # entrada com Casting 
-nascimento = int(input('2006'))
-cep = int(imput('25259-870'))
-bairro = str(input('Milha poca'))
-rua = str(input('Rua.Supra do Carmo'))
-numero = int(input('35'))
+nascimento = int(input('Data de nascimento: '))
+cep = int(input('Entre com seu CEP'))
+bairro = str(input('Entre com seu bairro: '))
+rua = str(input('Entre com sua rua:'))
+numero = int(input('Entree com o número: '))
 
 # Processamento: Pegando o ano corrente
 ano_atual = datetime.datetime.now().year
-idade + int(ano_atual) - nascimento
+idade = int(ano_atual) - nascimento
 
 # saida
 print('-' * 70)
