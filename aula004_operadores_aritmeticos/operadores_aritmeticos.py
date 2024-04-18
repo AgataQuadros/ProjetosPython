@@ -48,7 +48,7 @@ soma = parcela_1 + parcela_2
 diferença = minuendo - subtraendo
 produto = multiplicando * multiplicador
 quociente = dividendo / divisor
-raiz_quadrdada = numero_raiz_quadrada ** (1/2)
+raiz_quadrada = numero_raiz_quadrada ** (1/2)
 raiz_cubica = numero_raiz_cubica ** (1/3)
 
 # Saida
