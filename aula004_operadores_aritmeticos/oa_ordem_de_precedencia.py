@@ -10,7 +10,7 @@ print('Operadores Aritiméticos: Ordem de Precedência')
 print('-' * 70)
 
 # Entrada
-nota1 = float(input('1'))
+nota1 = float(input(''))
 
 
 
