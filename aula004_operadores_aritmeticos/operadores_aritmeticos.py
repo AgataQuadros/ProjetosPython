@@ -29,8 +29,20 @@ multiplicador = float(input('Entre com o multiplicador'))
 print()
 print('--------- DIVISÃO')
 print('-' * 70)
+dividendo = float(input('Entre com o dividendo: '))
+divisor = float(input('Entre com o divisor:' ))
 
+# Processamento
+soma = parcela_1 + parcela_2
+diferença = minuendo - subtraendo
+produto = multiplicando * multiplicador
+quociente = dividendo / divisor
 
-
-
-
+# Saida
+print('=' * 70)
+print('RESULTADOS')
+print('-' * 70)
+print(F'A soma de {parcela_1} + {parcela_2} é: {soma}')
+print(f'A subtação de {minuendo} - {subtraendo} é: {diferença}')
+print(f'A multiplicação de {multiplicando} x {multiplicador} é: {produto}')
+print(f'A divisão de {dividendo} / {divisor} é: {produto}')
