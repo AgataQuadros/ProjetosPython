@@ -10,7 +10,7 @@ import os
 os.system('cls')
 
 print('=' * 50)
-print('Exercicio A')
+print('EXERCÍCIO A')
 print('-' * 20)
 
 # Entrada
