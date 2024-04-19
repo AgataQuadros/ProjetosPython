@@ -14,9 +14,9 @@ print('EXERCÍCIO A')
 print('-' * 20)
 
 # Entrada
-valor1 = float(input('Digite um numero: '))
-valor2 = float(input('Digite um numero: '))
-valor3 = float(input('Digite um numero: '))
+valor1 = float(input('Digite o 1ª elemento: '))
+valor2 = float(input('Digite o 2ª elemento: '))
+valor3 = float(input('Digite o 3ª elemento: '))
 
 # Processamento
 soma = valor1 + valor2 + valor3
