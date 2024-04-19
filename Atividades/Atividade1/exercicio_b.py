@@ -23,8 +23,8 @@ ano_atual = datetime.datetime.now().year
 idade = int(ano_atual) - nascimento
 
 # Saida
-print(f'')
-
-
-
-
+print('-' * 20)
+print('')
+print(f'Ora, se você nasceu no ano {nascimento} então você tem {idade} anos!')
+print('')
+print('=' * 50)
