@@ -18,7 +18,8 @@ valor = float(input('digite o numero decimal: '))
 resposta = ''
 
 # Condicional
-if valor // 2 == 0:
+if valor % 2 == 0:
+      valor = int(valor)
       resposta = f'entrada incorreta, o valor {valor} é um inteiro'
 else:
       resposta = f'entrada correta, o valor {valor} é um decimal'
