@@ -14,7 +14,7 @@ os.system('cls')
 
 # Declaracões
 a = 10
-b =5
+b = 5
 resposta = ''
 
 print('-' * 70)
