@@ -21,5 +21,13 @@ c = int(input('entre com o terceiro valor: '))
 # Processamento
 if (a < b + c) and (b < c + a) and (c < b + a):
     resposta = f'Opa! parece que temos sim um triangulo!'
+else:
+    resposta = f'ah não, parece que isso não forma um triangulo'
 
-
+# Saída
+print('')
+print('-' * 20)
+print(resposta)
+print('-' * 20)
+print('fim do exercício')
+print('=' * 50)  
