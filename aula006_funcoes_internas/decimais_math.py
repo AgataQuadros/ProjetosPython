@@ -23,12 +23,3 @@ print(f'o numero decimal {numero_decimal} arredondado
 print(f'o numero decimal {numero_decimal} arredondado 
       para baixo é: {arredonda_pra_baixo}')
 print('-' * 50)
-
-
-
-
-
-
-
-
-
