@@ -19,9 +19,9 @@ print('EXERCÍCIO G')
 print('-' * 20)
 
 # Entrada
-a = input('Entre com o valor de A: ')
-b = input('Entre com o valor de B: ')
-c = input('Entre com o valor de C: ')
+a = int(input('Entre com o valor de A: '))
+b = int(input('Entre com o valor de B: '))
+c = int(input('Entre com o valor de C: '))
 resposta = ''
 
 # Processamento
@@ -31,8 +31,14 @@ r1 = (-b + rd) / (2*a) # raiz 1
 r2 = (-b - rd) / (2*a) # raiz 2
 
 if rd > 0 :
-   resposta = f'O resultado da sua equação é: raiz positiva = {r1}'
+   resposta = (f'O resultado da sua equação é: '
+   f'raiz positiva = {r1} raiz negativa = {r2}')
 else:
-   resposta = f'O resultado da sua equação é: raiz negativa = {r2}'
+   resposta = f'Desculpa mas a sua equação é incalculavel'
 
 # Saída
+print('')
+print('-' * 20)
+print(resposta)
+print('-' * 20)
+print('=' * 50)
