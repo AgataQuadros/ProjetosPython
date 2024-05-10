@@ -8,6 +8,7 @@
 
 # Biblioteca
 import os
+import math
 
 # Limpando o terminal
 os.system('cls')
@@ -17,7 +18,9 @@ print('EXERCÍCIO A')
 print('-' * 20)
 
 # Entrada
+numero = input('Entre com o radicando: ')
 
 # Processamento
+raiz_quadrada = numero ** (1/2)
 
 # Saída
