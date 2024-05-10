@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Agata Quadros (Gaia)
 # Data 25/04/2024
-# Objetivo: Faça um programa para sortear um número de 1 a 20
+# Objetivo: Faça um programa onde o usuário tenta adivinhar o número que o computador está ‘pensando’
 
 # Biblioteca
 import os
@@ -11,7 +11,7 @@ import os
 os.system('cls')
 
 print('=' * 50)
-print('EXERCÍCIO E')
+print('EXERCÍCIO F')
 print('-' * 20)
 
 # Entrada
