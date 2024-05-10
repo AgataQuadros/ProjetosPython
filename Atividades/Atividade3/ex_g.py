@@ -19,7 +19,20 @@ print('EXERCÍCIO G')
 print('-' * 20)
 
 # Entrada
+a = input('Entre com o valor de A: ')
+b = input('Entre com o valor de B: ')
+c = input('Entre com o valor de C: ')
+resposta = ''
 
 # Processamento
+discriminante = b**2 - 4*a*c
+rd = math.sqrt(discriminante) # raiz descriminante
+r1 = (-b + rd) / (2*a) # raiz 1
+r2 = (-b - rd) / (2*a) # raiz 2
+
+if rd > 0 :
+   resposta = f'O resultado da sua equação é: raiz positiva = {r1}'
+else:
+   resposta = f'O resultado da sua equação é: raiz negativa = {r2}'
 
 # Saída

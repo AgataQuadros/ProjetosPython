@@ -35,4 +35,3 @@ print(resposta)
 print('-' * 20)
 print('Mais Um, ' * 4)
 print('=' * 50)
-
