@@ -9,6 +9,7 @@
 
 # Biblioteca
 import os
+import math
 
 # Limpando o terminal
 os.system('cls')
@@ -18,7 +19,18 @@ print('EXERCÍCIO D')
 print('-' * 20)
 
 # Entrada
+angulo = float(input('Entre com o seu angulo: '))
 
 # Processamento
 
+seno = math.sin(math.radians(angulo))
+cosseno = math.cos(math.radians(angulo))
+tangente = math.tan(math.radians(angulo))
+
 # Saída
+print('')
+print('-' * 20)
+print(f'Aqui estão o seu seno {seno}, o seu'
+      f'cosseno {cosseno} e a sua tangente {tangente}')
+print('-' * 20)
+print('=' * 50)
