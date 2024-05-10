@@ -4,7 +4,6 @@
 # Data 25/04/2024
 # Objetivo: Faça um programa onde o usuário tenta adivinhar o número que o computador está ‘pensando’
 
-
 # ENVIAR
 
 # Biblioteca
