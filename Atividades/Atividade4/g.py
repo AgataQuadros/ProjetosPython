@@ -18,3 +18,19 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO G')
 print('-' * 20)
+
+numero = int(input('Entre com um numero inteiro: '))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
