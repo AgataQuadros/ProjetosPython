@@ -7,7 +7,7 @@
 
 # Biblioteca
 import os
-import math
+
 
 # Limpando o terminal
 os.system('cls')
