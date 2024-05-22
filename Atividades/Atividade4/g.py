@@ -6,6 +6,8 @@
 # • A quantidade de unidades, a quantidade de dezenas,
 #  a quantidade de centenas e a quantidade de milhares.
 
+# ENVIAR
+
 # Biblioteca
 import os
 import math
