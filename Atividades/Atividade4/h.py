@@ -21,22 +21,21 @@ print('-' * 20)
 #entrada
 nome = str(input('Entre com o seu nome: '))
 sobrenome = str(input('Entre com o seu sobrenome: '))
-ultimo_nome = str(input('Entre com o seu ultimo nome, caso não tenha adocione "": '))
-resposta = ''
+ultimo_nome = str(input('Entre com o seu ultimo nome, caso não tenha, de enter: '))
 
 #prcessamento
 nome_completo = nome+sobrenome+ultimo_nome
 caixa_baixa = nome_completo.lower()
 caracteres = ''.join(caixa_baixa)
-numeros_de_caracteres = len(caixa_baixa)
 numeros_de_letras = caracteres.count('o')
+posicao1 = caracteres.find('o')
+posicao2 = caracteres.rfind('o')
 
-resposta = (f'O seu nome contem {numeros_de_letras} letras "o" e {numeros_de_caracteres} letras!')
-
-
+#Saida
 print('')
 print('-' * 20)
-print(resposta)
+print(f'O seu nome contem {numeros_de_letras} letras "o"')
+print(f'A primeira posição em que "o" apareçe em seu nome é a {posicao1} e a ultima é a {posicao2}')
 print('-' * 20)
 print('fim do exercício :D')
 print('=' * 50)
