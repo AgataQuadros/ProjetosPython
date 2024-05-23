@@ -28,8 +28,8 @@ nome_completo = nome+sobrenome+ultimo_nome
 caixa_baixa = nome_completo.lower()
 caracteres = ''.join(caixa_baixa)
 numeros_de_letras = caracteres.count('o')
-posicao1 = caracteres.find('o')
-posicao2 = caracteres.rfind('o')
+posicao1 = caracteres.find('o') + 1
+posicao2 = caracteres.rfind('o') + 1
 
 #Saida
 print('')
