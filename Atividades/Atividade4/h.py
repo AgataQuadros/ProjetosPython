@@ -20,12 +20,18 @@ print('-' * 20)
 
 #entrada
 nome = str(input('Entre com o seu nome: '))
+sobrenome = str(input('Entre com o seu sobrenome: '))
+ultimo_nome = str(input('Entre com o seu ultimo nome, caso não tenha adocione "": '))
 resposta = ''
 
 #prcessamento
-numeros_de_letras = nome.count(O)
+nome_completo = nome+sobrenome+ultimo_nome
+caixa_baixa = nome_completo.lower()
+caracteres = ''.join(caixa_baixa)
+numeros_de_caracteres = len(caixa_baixa)
+numeros_de_letras = caracteres.count('o')
 
-resposta = (f'O seu nome contem {numeros_de_letras} letras!')
+resposta = (f'O seu nome contem {numeros_de_letras} letras "o" e {numeros_de_caracteres} letras!')
 
 
 print('')
