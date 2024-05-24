@@ -19,25 +19,19 @@ print('EXERCÍCIO I')
 print('-' * 20)
 
 # entrada
-nome1 = str(input('Entre com o seu primeiro nome: '))
-nome2 = str(input('Entre com o seu segundo nome: '))
-nome3 = str(input('Entre com o seu terceiro nome, caso não tenha, de enter: '))
-resposta = ''
+nome_completo = str(input('Entre com o seu nome completo: '))
 
-#processament
-pri_ult = nome1 + nome3
-pime_ulti = nome1 + nome2
-
-if ' ' in nome3:
-    resposta = f'Ola! {pri_ult}'
-else:
-    resposta = f'Ola! {pime_ulti}'
-
+nome_qubrado = nome_completo.split()
+prime_nome = nome_qubrado[0]
+ulti_nome = nome_qubrado[-1]
+prime_ulti = prime_nome + ' ' + ulti_nome
 
 #saida
 print('')
 print('-' * 20)
-print(resposta)
+print(f'nome completo: {nome_completo}')
+print(f'nome quebrado: {nome_qubrado}')
+print(f'Ola! {prime_ulti}')
 print('-' * 20)
 print('fim do exercício :D')
 print('=' * 50)
