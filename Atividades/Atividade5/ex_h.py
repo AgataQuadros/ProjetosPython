@@ -20,15 +20,25 @@ print('=' * 50)
 print('EXERCÍCIO H')
 print('-' * 20)
 
+# etrada
+inicio = int(input('Entre com o inicio do intervalo: '))
+fim = int(input('Entre com o final do intervalo: '))
+intervalo = []
 
+# Peocessamento
+for c in range((inicio),(fim)):
+    if c == 3:
+        continue
+    elif c == 5:
+        continue
+    elif c == 12:
+        continue
+    else:
+        intervalo += [c]
 
-
-
-
-
-
-
-
-
-
-
+# Saida
+print('')
+print('-' * 20)
+print(intervalo)
+print('-' * 20)
+print('=' * 50)
