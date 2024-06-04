@@ -5,7 +5,6 @@
 # intervalo entre 1 e 100. 
 # Os números devem ser apresentados na horizontal.
 
-
 # Biblioteca
 import os
 
