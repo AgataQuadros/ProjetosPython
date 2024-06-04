@@ -23,22 +23,20 @@ print('-' * 20)
 # etrada
 inicio = int(input('Entre com o inicio do intervalo: '))
 fim = int(input('Entre com o final do intervalo: '))
-intervalo = []
+print('Aqui você escolherá 3 numeros para excluir da sequencia')
+exclui1 = int(input('Entre com o 1º número: '))
+exclui2 = int(input('Entre com o 2º número: '))
+exclui3 = int(input('Entre com o 3º número: '))
 
 # Peocessamento
 for c in range((inicio),(fim)):
-    if c == 3:
+    if c == exclui1 or c == exclui2 or c == exclui3:
         continue
-    elif c == 5:
-        continue
-    elif c == 12:
-        continue
-    else:
-        intervalo += [c]
-
+    print('')
+    print(c)
+    
 # Saida
 print('')
 print('-' * 20)
-print(intervalo)
-print('-' * 20)
+print('Fim do exercício :D')
 print('=' * 50)
