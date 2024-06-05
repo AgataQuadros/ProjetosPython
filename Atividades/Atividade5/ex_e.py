@@ -16,12 +16,16 @@ print('EXERCÍCIO D')
 print('-' * 20)
 
 # Entrada
+quantidade_pares = 0
 soma = 0
 
+
 # Processamento
-for c in range(0, 100):
+for c in range(0, 102):
     if c % 2 ==0:
-        soma += 1
+        quantidade_pares += 1
+        soma += c
         
 print('----')
-print(c)
+print(quantidade_pares)
+print(soma)
