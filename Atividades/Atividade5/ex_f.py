@@ -15,8 +15,6 @@ print('=' * 50)
 print('EXERCÍCIO F')
 print('-' * 20)
 
-# Entrada
-
 # Processamento
 for c in range(2,100):
     for m in range(2,c):
