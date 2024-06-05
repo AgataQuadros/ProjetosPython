@@ -17,7 +17,7 @@ print(f'Frase original: {frase1}')
 print(f'Frase nova: {minunculas}')
 print('-' * 70)
 
-maiuscula = frase1.capitalize() # frase capitalizada/maiuscula
+maiuscula = frase1.capitalize() # frase capitalizada/1ª letra maiuscula
 print(f'Frase original: {frase1}')
 print(f'Frase nova: {maiuscula}')
 print('-' * 70)
