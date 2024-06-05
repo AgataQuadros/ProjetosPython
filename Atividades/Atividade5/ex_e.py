@@ -29,3 +29,8 @@ for c in range(0, 102):
 print('----')
 print(quantidade_pares)
 print(soma)
+
+# Saida
+print('-' * 20)
+print('Fim do exercício :D')
+print('=' * 50)
