@@ -12,5 +12,21 @@ import os
 os.system('cls')
 
 print('=' * 50)
-print('EXERCÍCIO D')
+print('EXERCÍCIO F')
 print('-' * 20)
+
+# Entrada
+
+# Processamento
+for c in range(2,100):
+    for m in range(2,c):
+        if c % m == 0:
+            break
+    else:
+        print('----')
+        print(c)
+
+# Saida
+print('-' * 20)
+print('Fim do exercício :D')
+print('=' * 50)
