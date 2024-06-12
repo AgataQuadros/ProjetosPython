@@ -4,7 +4,7 @@ import os
 os.system('cls')
 
 print('-' * 70)
-print('ESTRUTURA DE DADOS : LISTAS [ ]')
+print('SAÍDA COM FOR... ENUMERATE()')
 print('=' * 70)
 
 soma = 0
