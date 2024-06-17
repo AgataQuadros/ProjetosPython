@@ -15,3 +15,15 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO B')
 print('-' * 20)
+
+# Entrada
+lista = (input('Digite 5 números inteiros separando-os por espaço: '))
+lista_numeros = lista.split()
+soma = []
+
+# Processamento
+
+for item in lista_numeros:
+    soma.append(item + (item / 1))
+
+    print(soma)
