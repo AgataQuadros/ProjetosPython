@@ -16,15 +16,18 @@ print('=' * 50)
 print('EXERCÍCIO B')
 print('-' * 20)
 
+lista_numeros = []
+
 # Entrada
 lista = (input('Digite 5 números inteiros separando-os por espaço: '))
-lista_numeros = []
 soma = 0
 
 # Processamento
+lista = lista.split()
+lista_numeros.extend(lista)
 
-for item in range(0,5):
-    lista_numeros.append()
-    soma += lista_numeros
+for item in lista_numeros:
+    item = int(item)
+    soma += item
 
 print(soma)
