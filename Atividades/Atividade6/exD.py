@@ -17,7 +17,7 @@ print('=' * 50)
 print('EXERCÍCIO D')
 print('-' * 20)
 
-# Funções
+# Declaração
 lista_aux = []
 notas = []
 soma = 0
@@ -34,3 +34,4 @@ for nota in notas:
 media = soma / 4
 
 print(f'A média dos alunos: {media}')
+
