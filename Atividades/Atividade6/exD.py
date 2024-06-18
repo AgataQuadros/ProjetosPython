@@ -19,12 +19,18 @@ print('-' * 20)
 
 # Funções
 lista_aux = []
+notas = []
+soma = 0
+media = 0
 
 # Entrada
-nota_1 = input('Entre com a nota do 1° aluno:')
-nota_2 = input('Entre com a nota do 2° aluno:')
-nota_3 = input('Entre com a nota do 3° aluno:')
-nota_4 = input('Entre com a nota do 4° aluno:')
+for i in range(1,5):
+    notas.append(int(input(f' Entre com a nota do {i}º aluno: ')))
 
-notas = nota_1,nota_2,nota_3,nota_4
-lista_aux = notas.split(notas)
+# Processamento
+for nota in notas:
+    soma += nota
+
+media = soma / 4
+
+print(f'A média dos alunos: {media}')

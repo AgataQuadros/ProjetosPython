@@ -15,3 +15,18 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO G')
 print('-' * 20)
+
+# Entrada
+entrada = input('Entre com 10 números inteiros separando-os por espaço: ')
+
+numeros = []
+
+
+# Processamento
+numero_str = entrada.split()
+
+
+
+
+#numeros.sort()
+#print(f'Lista ordenada em ordem ascendente: {numeros}')
