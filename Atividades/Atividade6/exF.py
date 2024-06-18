@@ -16,3 +16,11 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO F')
 print('-' * 20)
+
+
+# Entrada
+lista_nomes = ['Brendon', 'Arthur', 'Isis', 'Bia', 'Sebastião']
+
+# Processamento
+for indice, nomes in enumerate(lista_nomes):
+    print(f'Nome: {nomes} = Indice: {indice}')
