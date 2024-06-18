@@ -21,3 +21,23 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO C')
 print('-' * 20)
+
+
+# entrada
+lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+pares = []
+impar = []
+
+# processamento
+print('lista de 0 a 9:')
+lista = lista_numeros[0:9]
+print(lista)
+
+print('lista de pares:')
+for numero in lista_numeros:
+    if numero % 2 == 0:
+        pares.append(numero)
+    else:
+        print('lista de impares:')
+        print(numero, end = ', ')
+

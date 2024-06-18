@@ -18,12 +18,13 @@ print('-' * 20)
 
 # Entrada
 lista = (input('Digite 5 números inteiros separando-os por espaço: '))
-lista_numeros = lista.split()
-soma = []
+lista_numeros = []
+soma = 0
 
 # Processamento
 
-for item in lista_numeros:
-    soma.append(item + (item / 1))
+for item in range(0,5):
+    lista_numeros.append()
+    soma += lista_numeros
 
-    print(soma)
+print(soma)
