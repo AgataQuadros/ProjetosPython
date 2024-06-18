@@ -33,11 +33,11 @@ print('lista de 0 a 9:')
 lista = lista_numeros[0:9]
 print(lista)
 
-print('lista de pares:')
 for numero in lista_numeros:
     if numero % 2 == 0:
         pares.append(numero)
     else:
-        print('lista de impares:')
-        print(numero, end = ', ')
+        impar.append(numero)
 
+print(f'Pares: {pares}')
+print(f'Impares: {impar}')
