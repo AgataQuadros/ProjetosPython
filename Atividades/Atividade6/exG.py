@@ -17,16 +17,14 @@ print('EXERCÍCIO G')
 print('-' * 20)
 
 # Entrada
-entrada = input('Entre com 10 números inteiros separando-os por espaço: ')
-
-numeros = []
-
+entrada = []
+for i in range(1,11):
+    entrada.append(int(input(f' Entre com o {i}º número: ')))
 
 # Processamento
-numero_str = entrada.split()
 
+entrada.sort()
+print(f'Lista ordenada em ordem ascendente: {entrada}')
 
-
-
-#numeros.sort()
-#print(f'Lista ordenada em ordem ascendente: {numeros}')
+print(f'O menor numero da sua lista é: {entrada[0]}')
+print(f'O maior numero da sua lista é: {entrada[9]}')
