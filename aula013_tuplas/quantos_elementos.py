@@ -28,6 +28,28 @@ print('-' * 70)
 
 #estrutura de repetição para permitir múltiplas operações
 #até o usuario deseje sair
+while True:
+    #condicional para verificar a presensa
+    # de um numero especifico
+    valor = int(input('verificar se o número esta na tupla'))
 
+    if valor in tupla:
+        print(f'o número {valor} esta na tupla')
+        # contar quantas vezes o numero aparece
+        contagem = tupla.count(valor)
+        print(f'o número {valor} aparece {contagem} de vez(es)')
+        # encontra o indice da 1ª ocorrencia
+        indice = tupla.index(valor)
+        print(f'a 1ª ocorencia de {valor} esta no índice {indice}')
+    else:
+        print(f'o número {valor} não esta na tupla')
+    #pergunta ao usuario se deseja realizar 
+    # outra operação ou sair
+    continuar = input('Deseja continuar? (s/n):').lower()
+    if continuar != 's':
+        print('encerrando programa. Até mais!')
+        break
 
-
+print('-' * 70)
+print('Fim do programa')
+print('-' * 70)
