@@ -26,8 +26,22 @@ pessoas['numero'] = '221B'
 pessoas['cidade'] = 'Londres'
 pessoas['pais'] = 'inglaterra'
 
-cores['Pb'] = 'Vermelho'
-cores['Au'] = 'Verde'
-cores['N'] = 'Azul'
+cores['red'] = 'Vermelho'
+cores['green'] = 'Verde'
+cores['blue'] = 'Azul'
 
+elementos['Pb'] = 'Chumbo'
+elementos['Au'] = 'Ouro'
+elementos['N'] = 'Nitrogênio'
 
+numeros[1] = 100
+numeros[2] = 200
+numeros[3] = 300
+
+print(f'Minhas compras: {compras}')
+print(f'Detetives: {pessoas}')
+print(f'Cor RGB: {cores}')
+print(f'Tabela periódica: {elementos}')
+print(f'Listagem de números: {numeros}')
+print()
+print('-' * 100)
