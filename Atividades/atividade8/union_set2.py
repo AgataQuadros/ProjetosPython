@@ -20,3 +20,17 @@ import os
 
 # Limpando o terminal
 os.system('cls')
+
+
+print('=' * 50)
+print('METODO UNION OU |')
+print('-' * 50)
+
+# declarando
+
+# entrada
+entrada1 = input('Entre com a 1ª lista que você desa unir separando cada elemento por ",": ')
+entrada2 = input('Entre com a 2ª lista que você desa unir separando cada elemento por ",": ')
+
+# processamento
+numero_str = entrada1.split()
