@@ -4,15 +4,10 @@
 # Autor: Agata Quadros (Gaia)
 # Data: 24/06/2024
 
-# Os alunos farão, por sorteio, um programa (1 por aluno) utilizando os 
-# métodos da estrutura de dados Set . 
-# Depois de prontos, todos os exemplos gerados pelos alunos farão parte da apostila 
-# de linguagem de programação python do Curso de Desenvolvimento de Sistemas. 
-# Atenção para colocarem uma descrição do programa, sua data de criação,
-# o ano e a turma. Como temos 14 alunos, 4 trabalhos serão feitos em dupla.
-# Hora de caprichar nas ideias.
-
 # union(set2) ou |: Retorna um novo set que é a união de dois sets.
+
+# O programa a seguir vai te dar um exemplo de 'union de 2 sets' 
+# mostrando tambem como converter lista para set.
 
 
 # Biblioteca
@@ -26,7 +21,6 @@ print('=' * 50)
 print('METODO UNION OU |')
 print('-' * 50)
 
-# declarando
 
 # entrada
 entrada1 = input('Entre com a 1ª lista que você desa unir separando cada elemento por ",": ')
@@ -36,17 +30,20 @@ entrada2 = input('Entre com a 2ª lista que você desa unir separando cada eleme
 # tranformando as entradas em listas
 lista1 = entrada1.split(',')
 lista2 = entrada2.split(',')
-# Transformando em set
-set1 = set(lista1)
+# Transformando as listas em sets
+set1 = set(lista1) # o set desordena a lista
 set2 = set(lista2)
 # unindo as duas lista
-#unidas = set1.union(set2)
+unidas = set1.union(set2)
+unidas2 = set1 | set2
+# A lista não vai ficar na sequencia exata que o usuario deu na entrada por conta do set
 
-# corrigindo a sequencia com sort
-#if int in entrada1 or entrada2:
-#    sequencia = unidas.sort 
-
-print(lista1)
-print(set1)
-print(lista2)
-print(set2)
+# Saida
+print('-' * 20)
+print(f'As listas fornecidas foram a {lista1} e a {lista2}')
+print(f'Unindo elas com " .union " você fica com: {unidas}')
+print(f'Unindo elas com " | " você fica com: {unidas2}')
+print('Obrigado por participar!')
+print('')
+print('Fim do programa')
+print('=' * 50)
