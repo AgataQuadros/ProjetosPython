@@ -39,7 +39,7 @@ while True:
         novos_pares_lista = novos_pares.split(',')
         novos_dados = {}
         for par in novos_pares_lista:
-            chave, valor = par.split()
+            chave, valor = par.split(':')
             novos_dados[chave] = valor
         meu_dicionario.update(novos_dados)
         print('Dicionário atual:', meu_dicionario)
