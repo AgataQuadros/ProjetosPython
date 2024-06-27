@@ -10,7 +10,7 @@ while True:
     print('-' * 70)
     print('\nMenu de opções:')
     print('1. Adicionar uma par chave/valor')
-    print('2. Definir valor padrão para uma chave usando stdefault()')
+    print('2. Definir valor padrão para uma chave usando setdefault()')
     print('3. Atualizar o dicionário usando update()')
     print('4. Mostrar dicionário atual')
     print('5. Sair')
@@ -35,7 +35,9 @@ while True:
 
     elif opcao == '3':
         # Atualizar o dicionario usando update()
-        novos_pares = input('Digite os novos pares: ')
+        # novos pares chave-valor no formato: chave1:valor1, chave2:valor2
+        novos_pares = input('Digite os novos pares chave-valor'\
+                            'no formato chave1:valor1, chave2:valor2 : ')
         novos_pares_lista = novos_pares.split(',')
         novos_dados = {}
         for par in novos_pares_lista:
