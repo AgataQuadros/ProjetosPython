@@ -6,3 +6,14 @@
 # Em seguida realize as seguintes ações:
 #- Listar chaves e valores com laço - Deletar o peso
 #- Listar novamente chaves e valores - mostrar o nome e altura
+
+# Biblioteca
+import os
+
+
+# Limpando o terminal
+os.system('cls')
+
+print('=' * 50)
+print('EXERCÍCIO H')
+print('-' * 20)
