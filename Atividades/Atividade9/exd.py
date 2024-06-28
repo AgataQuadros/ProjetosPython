@@ -14,3 +14,4 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO D')
 print('-' * 20)
+
