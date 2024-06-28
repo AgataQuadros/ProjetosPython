@@ -15,3 +15,20 @@ print('=' * 50)
 print('EXERCÍCIO D')
 print('-' * 20)
 
+# Declarando
+cores = {}
+
+# Atribuindo
+cores['red'] = 'Vermelho'
+cores['green'] = 'Verde'
+cores['blue'] = 'Azul'
+cores['black'] = 'Preto'
+cores['white'] = 'Branco'
+
+# Saida
+print()
+print(f'Cores: {cores}')
+print()
+print('-' * 20)
+print('Fim do programa')
+print('=' * 50)
