@@ -16,3 +16,28 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO K')
 print('-' * 20)
+
+# Declarando
+usuario = {}
+
+# Processamento
+while True:
+    print()
+    nome = str(input('Entre com o nome: '))
+    idade = int(input('Entre com a idade: '))
+    usuario[nome] = idade
+
+    if idade == 999:
+        print('Idade invalida.')
+        valor_removido = usuario.popitem()
+        break
+
+
+# Saida
+print()
+print('Informações inseridas:')
+print(usuario)
+print()
+print('-' * 20)
+print('Fim do programa')
+print('=' * 50)
