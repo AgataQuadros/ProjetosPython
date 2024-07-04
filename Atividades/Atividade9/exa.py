@@ -23,7 +23,7 @@ print()
 entrada = input('Usuario encontrado. Aperte enter para prosseguir...')
 
 # Atribuindo
-usuario['nome'] = 'Mônica Oliveira'
+usuario['nome'] = 'Mônica Souza'
 usuario['titulo'] = 'Dona da rua'
 usuario['endereço'] = 'Bairro do limoeiro'
 usuario['numero'] = '22'
