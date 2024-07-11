@@ -44,11 +44,6 @@ def desempacotar_dicionario(nome, idade, peso):
     print(f'idade = {idade}')
     print(f'peso = {peso}')
 
-
-
-
-empacotar_dicionario(nome = 'Juquinha', idade = 70, peso = 70.5)
-
-
-
-
+dicionario = dict(nome = 'Maria', idade = 70, peso = 70.5)
+desempacotar_dicionario(**dicionario)
+print()
