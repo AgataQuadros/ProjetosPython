@@ -19,17 +19,25 @@ print('-' * 20)
 cadastro = []
 aluno = {}
 
-def cadastrar():
-    aluno['nome'] = input('Insira o nome do aluno: ')
-    aluno['matricula'] = input('Insira o nome do matricula: ')
-    aluno['nascimento'] = input('Insira o nome do data de nascimento: ')
-    
-    os.system('cls')
-    cadastro.append(aluno.copy())
+def cadastrar(**aluno):
+    alunos = aluno
+    cadastro.append(alunos.copy())
 
 while True:
-    cadastrar()
-    for info in cadastro:
-        print(info)
-        if 'sair' in aluno:
-            break
+    print('°.______CADASTO DE ALUNOS______.°')
+    menu = input('1 - CADASTRAR ALUNO | 2 - SAIR: ')
+    
+    if '1' in menu:
+        nome = input('Insira o nome do aluno: ')
+        matricula = input('Insira a matricula: ')
+        nascimento = input('Insira a data de nascimento: ')
+        cadastrar(nome=nome, matricula=matricula,
+                      nascimento=nascimento)
+
+    elif '2' in menu:
+        print('Encerrando...')
+        break
+
+    else:
+        print('opção invalida!!')
+        break
