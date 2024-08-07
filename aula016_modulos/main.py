@@ -20,3 +20,15 @@ while True:
     resultado_produto = multi(a,b)
     resultado_divisao, erro = dividir(a, b)
     
+    print('-' * 70)
+    print('CÁLCULOS MATAMÁTICOS')
+    print('=' * 70)
+    print(f'Cáuculo da soma: {resultado_soma}')
+    print(f'Cáuculo do produto: {resultado_produto}')
+    print(f'Cáuculo da divisão: {resultado_divisao}, {erro}')
+    print('-' * 70)
+
+    sair = input('Deseja sair do programa? (s/n): ').strip().lower()
+    if sair == 's':
+        print('Saindo do programa... ')
+        break
