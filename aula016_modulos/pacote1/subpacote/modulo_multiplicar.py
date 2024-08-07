@@ -1,15 +1,12 @@
 def dividir(a, b):
-    '''Método para dividir 2 números
+    '''Método para multiplicar 2 números
     Args:
-        a (Any): Dividendo
-        b (Any): Divisor
+        a (Any): Fator 1
+        b (Any): Fator 2
         
     Returns:
-    str: Mensagem de erro ou "OK!" se a divisão for bem-sucedida
-    any: Quociente ou Nome em caso de erro
+    Any: Produto
     '''
-    if b == 0:
-        return None, 'Erro de divisão'
-    else:
-        divisao = a/b
-        return divisao, 'OK!'
+
+    produto = a * b
+    return produto, 'OK!'
