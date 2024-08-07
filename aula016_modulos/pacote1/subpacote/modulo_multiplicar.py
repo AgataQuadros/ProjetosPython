@@ -1,4 +1,4 @@
-def dividir(a, b):
+def multiplicar(a, b):
     '''Método para multiplicar 2 números
     Args:
         a (Any): Fator 1
