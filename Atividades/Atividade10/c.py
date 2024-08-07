@@ -17,15 +17,34 @@ print('EXERCÍCIO C')
 print('-' * 20)
 
 
-dados = dict()
-nome_aluno = input('Entre com nome do aluno: ')
+def verificar_cadastro(aluno, lista_alunos):
 
-def verifica(verf):
-    verifica(verf)
-    verifica(nome = 'Agata Quadros', numero_matricula = '1234', nascimento = '16/09/06')
+    cadastro = False
 
-    if nome_aluno not in dados:
-        print('Este aluno não esta no registro')
+    for i in lista_alunos:
+        if i == aluno:
+            cadastro = True
+
+    if cadastro == False:
+        return 'Cadastro não encontrado.'
     else:
-        print('Ele está nos registros')   
-   
+        return f"""\nCadastro encontrado: \nNome: {aluno['Nome']}
+Data de nascimento: {aluno['Data de nascimento']}
+Matrícula: {aluno['Matricula']}"""
+
+
+lista_alunos = [{'Nome': 'Colyana', 'Data de nascimento': '15/03/2000', 'Matricula': '817147'},
+                {'Nome': 'Italo', 'Data de nascimento': '27/04/1990', 'Matricula': '237954'},
+                {'Nome': 'Alex', 'Data de nascimento': '29/08/1987', 'Matricula': '657109'}]
+
+# aluno = {'Nome': 'Colyana', 'Data de nascimento': '15/03/2000', 'Matricula': '817147'}
+aluno = dict()
+aluno['Nome'] = input("Digite o nome do aluno: ").capitalize()
+aluno['Data de nascimento'] = input('Digite a data de nascimento do aluno [dd/mm/aaaa]: ' )
+aluno['Matricula'] = input('Digite o número de matrícula do aluno: ')
+
+print(verificar_cadastro(aluno, lista_alunos))
+
+print()
+print('Fim do programa!')
+print('-' * 70)
