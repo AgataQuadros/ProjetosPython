@@ -15,7 +15,7 @@ lista = [1, 2, 3]
 try:
     item = lista[5]
 except IndexError:
-    print('Erro: tipo de dado imcompativel!')
+    print('Erro: Índice fora do inervalo!')
 
 # KeyError
 dicionario = {'chave' : 'valor'}
