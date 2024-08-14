@@ -13,13 +13,13 @@ lista = [
          ]
 
 # Caminho para a pasta onde o arquivo cvs sera salvo
-pasta = 'arquivos_csv/gravação/'
+pasta = 'arquivos_csv/gravacao/'
 
 # Verificando se a pasta existe, se não irá cria-la
 os.makedirs(pasta, exist_ok=True)
 
 # Nome para o arquivo csv gravar informações
-arquivo = 'arquivos_csv/gravação/alunas.csv'
+arquivo = 'arquivos_csv/gravacao/alunas.csv'
 
 # Caminho completo do arquivo csv
 caminho_arquivo = os.path.join(pasta, arquivo)
@@ -28,7 +28,7 @@ caminho_arquivo = os.path.join(pasta, arquivo)
 # Se o arquivo não existir, ele sera criado; se existir, sera truncado(esvaziado).
 # newline='': Evita a adição de linhas em branco extra ao gravar o arquivo em algumas plataformas
 # as arquivo_cvs: Atribui o objeo arquivo ao 'arquivo_csv' para ser usado dentro do bloco with
-with open(arquivo, 'w', newline='')as arquivo_csv:
+with open(arquivo, 'w', newline='') as arquivo_csv:
     # campos = ['nome', 'telefone', 'cidade']: Define a lista de nomes de campos
     #cabeçalho das colunas do csv
     campos = ['nome', 'telefone', 'cidade']
@@ -39,8 +39,12 @@ with open(arquivo, 'w', newline='')as arquivo_csv:
     # delimiter=';': é o separador
     escrever = csv.DictWriter(arquivo_csv, fieldnames=campos, delimiter=';')
 
-    # write.writeheader(): Gravar todas as linhas de cabeçalho no
+    # writer.writeheader(): Gravar todas as linhas de cabeçalho no
     # arquivo csv usando os nomes de campos definidos em fieldnames.
+    escrever.writeheader
+
+    # writer.writerrows(lista): Grava todas as linhas da lista no arquivo csv
+    # Cada dicionario em 'lista' se torna uma linha no arquivo.
     escrever.writerows(lista)
 
 os.system('cls')
