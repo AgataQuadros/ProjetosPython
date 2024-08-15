@@ -41,7 +41,7 @@ with open(arquivo, 'w', newline='') as arquivo_csv:
 
     # writer.writeheader(): Gravar todas as linhas de cabeçalho no
     # arquivo csv usando os nomes de campos definidos em fieldnames.
-    escrever.writeheader
+    escrever.writeheader()
 
     # writer.writerrows(lista): Grava todas as linhas da lista no arquivo csv
     # Cada dicionario em 'lista' se torna uma linha no arquivo.

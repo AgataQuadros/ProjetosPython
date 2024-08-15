@@ -3,7 +3,7 @@ import os
 
 
 # Nome do arquivo csv
-arquivo = 'arquivos_csv/gravação/alunas.csv'
+arquivo = 'arquivos_csv/gravacao/alunas.csv'
 nome_para_apagar = input('Digite o nome que deseja apagar: ')
 
 # Lendo dados do arquivo
