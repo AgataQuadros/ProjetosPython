@@ -11,16 +11,15 @@ import os
 os.system('cls')
 
 
-# entrada
+print("Hi! my name dosen't meter, but yours do. How are you called sweet being?")
+empresta_pra_aquilo = input("the voice asks for your name, do you lend it to it?... ")
+ 
+if 'yes' in empresta_pra_aquilo:
+    seu_nome = input("what is your name?... ")
+elif 'no' in empresta_pra_aquilo:
+    print("Smart little thing.")
+    print("But i still have to call you something..")
+    print("I'll just keep calling you little one")
 
-nome = input('Entre com o seu nome: ')
-genero = input('Entre com seu gênero (f- feminino, m- masculino, o- outro): ')
-print('por ser um codigo raso não avera muitas mudanças nos generos das palavras mesmo que você informe o seu genero!!')
-print('concertaremos isso em atualizações futuras!')
-
-if 'o' in genero:
-    qual = input('Qual é o seu genero?(s- não quero informar): ')
-
-    if 's' in qual:
-        print('Ok! vamos continuar')
-
+print(f"So, {seu_nome} what do you think about and adventure?")
+aceitar = input('do you want this?... ')
