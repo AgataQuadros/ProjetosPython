@@ -24,5 +24,6 @@ for indice, numero in enumerate(lista_numeros):
     print(f'Indice: {indice} = Número: {numero}')
 
 print('-' * 70)
+print(f"A soma de todos os números é: {soma}")
 print('Fim do programa!')
 print('-' * 70)
