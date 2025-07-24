@@ -21,7 +21,7 @@ inicio = int(input('Entre com o 1° número do seu intervalo: '))
 fim = int(input('Entre com o ultimo número do seu intervalo: '))
 
 # Processamento
-for c in range(inicio,fim):
+for c in range(inicio,fim +1):
     print('----')
     print(f'{c}')
 

@@ -30,3 +30,6 @@ if posicao == 3  and numero == 4:
     print()
     print('Parabens!! você corrigiu a lista!!')
     print('Lista após a correção:', lista)
+else:
+    print()
+    print('poxa você errou :( atualize a página e tente de novo :D')

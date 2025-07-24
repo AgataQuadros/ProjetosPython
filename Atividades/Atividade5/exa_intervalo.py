@@ -17,7 +17,7 @@ print('EXERCÍCIO A')
 print('-' * 20)
 
 # Processamento
-for c in range(1,100):
+for c in range(1,101):
     print('----')
     print(c)
 

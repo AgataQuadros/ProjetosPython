@@ -15,7 +15,7 @@ print('=' * 50)
 print('EXERCÍCIO D')
 print('-' * 20)
 
-for c in range(0,100):
+for c in range(0,101):
     if c % 2 == 0:
         print('----')
         print(c)

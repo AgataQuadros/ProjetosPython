@@ -14,15 +14,21 @@ print('EXERCÍCIO B')
 print('-' * 20)
 
 # Entrada
-a = int(input('digite o primeiro numero: '))
-b = int(input('digite o segundo numero: '))
-c = int(input('digite o terceiro numero: '))
+a = int(input('digite o primeiro número: '))
+b = int(input('digite o segundo número: '))
+c = int(input('digite o terceiro número: '))
 valor = a,b,c
 resposta = ''
 
 # Processamento
-
-
+if a > b and a > b :
+    resposta = f'o maior número é {a}'
+elif b > c and b > a:
+    resposta = f'o maior número é {b}'
+elif a == b and b == c:
+    resposta = f'todos os números são iguais'
+else:
+    resposta = f'o maior número é {c}'
 
 # Saída
 print('')
